@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.button {
+  background: transparent;
+  border: 1px solid black;
+  padding: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+
+.button_error {
+  border-color: #e5566a;
+  color: #e5566a;
+}
+.button_error:hover {
+  background-color: #e5566a;
+  color: #fff;
+}
+
+.button_success {
+  border-color: #71c98d;
+  color: #71c98d;
+}
+
+.button_success:hover {
+  background-color: #71c98d;
+  color: #fff;
+}
